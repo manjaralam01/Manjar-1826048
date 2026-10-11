@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>BPT-109 Assignment 1</title>
+<style>body{font-family:system-ui,sans-serif;max-width:800px;margin:auto;padding:16px;line-height:1.5;color:#222}h2{color:#1a4d8f}table{border-collapse:collapse;width:100%}td,th{border:1px solid #ccc;padding:6px;text-align:left}th{background:#eef3fa}section{margin-bottom:32px;padding-bottom:16px;border-bottom:1px solid #ddd}</style></head>
+<body>
+<h1>BPT-109 Assignment 1</h1>
+<section id="q1">
+<h2>Q1. Characteristics and Generations</h2>
+<h3>Four characteristics</h3>
+<ul><li>Speed</li><li>Accuracy</li><li>Diligence (no fatigue)</li><li>Large storage capacity</li></ul>
+<h3>Hardware by generation</h3>
+<table><tr><th>Generation</th><th>Key hardware</th></tr>
+<tr><td>1st</td><td>Vacuum tubes</td></tr>
+<tr><td>2nd</td><td>Transistors</td></tr>
+<tr><td>3rd</td><td>Integrated circuits (ICs)</td></tr>
+<tr><td>4th</td><td>Microprocessors (VLSI)</td></tr>
+<tr><td>5th</td><td>ULSI, AI and parallel processing</td></tr></table>
+</section>
+<section id="q2">
+<h2>Q2. Block Diagram Flow</h2>
+<ol>
+<li>The input unit sends data and instructions to memory.</li>
+<li>The control unit (CU) fetches an instruction from memory, decodes it, and sends control signals to the ALU, memory and I/O.</li>
+<li>The ALU processes the data, and the result goes back to memory.</li>
+<li>The output unit receives the result via the I/O interface.</li>
+</ol>
+<ul>
+<li><b>Data:</b> flows between I/O, memory and ALU.</li>
+<li><b>Instructions:</b> flow from memory to the CU.</li>
+<li><b>Control signals:</b> flow from the CU to all units.</li>
+</ul>
+</section>
+<section id="q3">
+<h2>Q3. Campus Automation with Scanners and Card Readers</h2>
+<h3>Attendance</h3>
+<p>Students tap RFID/smart ID cards on a reader at the classroom door. The reader logs the ID and timestamp to the database. OMR sheets can be used for exam attendance.</p>
+<h3>Library checkout</h3>
+<p>The barcode scanner reads the book's code and the card reader reads the student ID. The system records the issue automatically, sets the due date, and flags overdue books or unissued books at the gate.</p>
+</section>
+<section id="q4">
+<h2>Q4. Low-level vs High-level Languages</h2>
+<table>
+<tr><th>Basis</th><th>Low-level (Machine/Assembly)</th><th>High-level</th></tr>
+<tr><td>Execution speed</td><td>Faster</td><td>Slower</td></tr>
+<tr><td>Hardware dependence</td><td>Machine-dependent</td><td>Portable</td></tr>
+<tr><td>Translation</td><td>Machine: none. Assembly: assembler</td><td>Compiler/interpreter</td></tr>
+<tr><td>Complexity</td><td>Hard, error-prone</td><td>Easier, English-like</td></tr>
+</table>
+</section>
+<section id="q5">
+<h2>Q5. Mouse/Trackball vs Digitizer/Tablet</h2>
+<table>
+<tr><th>Feature</th><th>Mouse / Trackball</th><th>Digitizer / Tablet</th></tr>
+<tr><td>Coordinate tracking</td><td>Relative movement (ball or optical sensor)</td><td>Absolute position on a grid</td></tr>
+<tr><td>Precision</td><td>Lower</td><td>High</td></tr>
+<tr><td>Pressure sensitivity</td><td>None</td><td>Stylus senses pressure levels</td></tr>
+<tr><td>Best for</td><td>General pointing</td><td>CAD tracing, digital art strokes</td></tr>
+</table>
+</section>
+<section id="q6">
+<h2>Q6. Plotter vs UHD Monitor + Large-format Printer</h2>
+<p><b>Verdict:</b> The monitor + large-format printer combination is better for most blueprint work.</p>
+<ul>
+<li><b>Line resolution:</b> Plotters give crisp vector lines, but modern printers at 1200+ dpi match them.</li>
+<li><b>Scalability:</b> Printers handle any size, colour and raster/vector mix. Plotters are slower and more limited.</li>
+<li><b>Long-term cost:</b> Printers have higher ink costs but are faster and more versatile. Plotters have cheap pens but low throughput and rising maintenance.</li>
+</ul>
+</section>
+<section id="q7">
+<h2>Q7. Facial vs Voice Recognition (Noisy, Public Setting)</h2>
+<h3>Facial recognition</h3>
+<p>Unaffected by noise. Weaknesses are lighting, masks and angle, and spoofing via photos, videos or deepfakes unless liveness detection is used. It also raises privacy concerns.</p>
+<h3>Voice recognition</h3>
+<p>Noise sharply reduces accuracy. It is open to replay and synthetic-voice attacks and can be overheard in public.</p>
+<p><b>Verdict:</b> Face recognition with liveness detection is more reliable here. Pairing it with a PIN or card (multi-factor) is best.</p>
+</section>
+<section id="q8">
+<h2>Q8. Hands-free Workstation for a Visually Impaired User</h2>
+<h3>Input</h3>
+<ul><li>Headset microphone for voice recognition (dictation and commands)</li><li>Braille or tactile-marked keyboard</li><li>Scanner with OCR (optional)</li></ul>
+<h3>Output</h3>
+<ul><li>Screen reader (NVDA/JAWS) linked to a speech synthesizer for voice response</li><li>Refreshable Braille display</li><li>Audio feedback through headphones</li></ul>
+<h3>Integration</h3>
+<p>The user speaks or types, the system processes it, and the screen reader reads results aloud. Braille output backs up speech for exact text and noisy settings.</p>
+</section>
+</body></html>
